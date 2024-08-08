@@ -1,0 +1,258 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "The Great Adventure",
+      "description": "An epic journey through uncharted territories.",
+      "releaseDate": "2024-03-21",
+      "isLatest": true,
+      "isUpcoming": false,
+      "imageUrl": "https://picsum.photos/200/300?random=1"
+    },
+    {
+      "id": "2",
+      "title": "Tomorrow's Edge",
+      "description": "A glimpse into the future of humanity.",
+      "releaseDate": "2024-05-15",
+      "isLatest": false,
+      "isUpcoming": true,
+      "imageUrl": "https://picsum.photos/200/300?random=2"
+    },
+    {
+      "id": "3",
+      "title": "Space Odyssey",
+      "description": "A voyage to the unknown corners of space.",
+      "releaseDate": "2024-07-01",
+      "isLatest": true,
+      "isUpcoming": false,
+      "imageUrl": "https://picsum.photos/200/300?random=3"
+    },
+    {
+      "id": "4",
+      "title": "The Lost Kingdom",
+      "description": "Discovering the secrets of an ancient civilization.",
+      "releaseDate": "2024-08-20",
+      "isLatest": false,
+      "isUpcoming": true,
+      "imageUrl": "https://picsum.photos/200/300?random=4"
+    },
+    {
+      "id": "5",
+      "title": "Cyber Revolution",
+      "description": "The rise of AI and the future of humanity.",
+      "releaseDate": "2024-09-10",
+      "isLatest": true,
+      "isUpcoming": false,
+      "imageUrl": "https://picsum.photos/200/300?random=5"
+    },
+    {
+      "id": "6",
+      "title": "Ghost Ship",
+      "description": "A haunted tale on the high seas.",
+      "releaseDate": "2024-10-31",
+      "isLatest": false,
+      "isUpcoming": true,
+      "imageUrl": "https://picsum.photos/200/300?random=6"
+    },
+    {
+      "id": "7",
+      "title": "Wonders of the Deep",
+      "description": "Exploring the mysteries of the ocean.",
+      "releaseDate": "2024-11-21",
+      "isLatest": true,
+      "isUpcoming": false,
+      "imageUrl": "https://picsum.photos/200/300?random=1"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Concert by The Classics",
+      "description": "An unforgettable night of classic hits.",
+      "location": "City Concert Hall",
+      "date": "2024-04-10"
+    },
+    {
+      "id": "2",
+      "name": "Concert by The Jazz ",
+      "description": "An unforgettable night of classic jazz hits.",
+      "location": "City Concert Hall 2",
+      "date": "2024-04-12"
+    }
+  ],
+  "users": [
+    {
+      "id": "101",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "12345"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "movieId": 1,
+      "userId": 101,
+      "seats": 2,
+      "bookingTime": "2024-03-22T20:00:00Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "3c0d",
+      "movieId": "2",
+      "tickets": "2"
+    },
+    {
+      "id": "d74b",
+      "movieId": "4",
+      "tickets": "5"
+    },
+    {
+      "id": "f28a",
+      "movieId": "2",
+      "tickets": "2"
+    },
+    {
+      "id": "9af8",
+      "movieId": "5",
+      "seats": [
+        "1",
+        "2"
+      ],
+      "numberOfTickets": 2,
+      "showTime": "5:00 PM",
+      "showDate": "2024-03-28"
+    },
+    {
+      "id": "fd11",
+      "movieId": "5",
+      "seats": [
+        "3",
+        "6",
+        "8"
+      ],
+      "numberOfTickets": 3,
+      "showTime": "8:00 PM",
+      "showDate": "2024-03-27"
+    },
+    {
+      "id": "a658",
+      "movieId": "2",
+      "seats": [
+        "5"
+      ],
+      "numberOfTickets": 1,
+      "showTime": "2:00 PM",
+      "showDate": "2024-03-28"
+    },
+    {
+      "id": "5eff",
+      "movieId": "6",
+      "seats": [
+        "9",
+        "12"
+      ],
+      "numberOfTickets": 2,
+      "showTime": "5:00 PM",
+      "showDate": "2024-03-15"
+    }
+  ],
+  "seats": [
+    {
+      "id": "1",
+      "row": "A",
+      "number": 1,
+      "isBooked": false
+    },
+    {
+      "id": "2",
+      "row": "A",
+      "number": 2,
+      "isBooked": false
+    },
+    {
+      "id": "3",
+      "row": "A",
+      "number": 3,
+      "isBooked": false
+    },
+    {
+      "id": "4",
+      "row": "A",
+      "number": 4,
+      "isBooked": true
+    },
+    {
+      "id": "5",
+      "row": "B",
+      "number": 1,
+      "isBooked": true
+    },
+    {
+      "id": "6",
+      "row": "B",
+      "number": 2,
+      "isBooked": true
+    },
+    {
+      "id": "7",
+      "row": "B",
+      "number": 3,
+      "isBooked": false
+    },
+    {
+      "id": "8",
+      "row": "B",
+      "number": 4,
+      "isBooked": false
+    },
+    {
+      "id": "9",
+      "row": "C",
+      "number": 1,
+      "isBooked": false
+    },
+    {
+      "id": "10",
+      "row": "C",
+      "number": 2,
+      "isBooked": true
+    },
+    {
+      "id": "11",
+      "row": "C",
+      "number": 3,
+      "isBooked": false
+    },
+    {
+      "id": "12",
+      "row": "C",
+      "number": 4,
+      "isBooked": true
+    },
+    {
+      "id": "13",
+      "row": "D",
+      "number": 1,
+      "isBooked": false
+    },
+    {
+      "id": "14",
+      "row": "D",
+      "number": 2,
+      "isBooked": false
+    },
+    {
+      "id": "15",
+      "row": "D",
+      "number": 3,
+      "isBooked": true
+    },
+    {
+      "id": "16",
+      "row": "D",
+      "number": 4,
+      "isBooked": false
+    }
+  ]
+}
